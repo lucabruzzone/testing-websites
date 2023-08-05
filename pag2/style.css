@@ -11,6 +11,11 @@ body{
     overflow-x: hidden;
 }
 
+.active{
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.256);
+    transition: 0.5s;
+}
+
 .nav{
     top: 0;
     width: 100%;
@@ -19,6 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
+    /* box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.314); */
     z-index: 1000;
 }
 
